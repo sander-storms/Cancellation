@@ -4,10 +4,16 @@
     <Description>Helper types for working with cancellation tokens and sources.</Description>
     <TargetFrameworks>netstandard1.0;netstandard2.0;net461;net8.0</TargetFrameworks>
     <PackageTags>cancellation;cancellationtoken</PackageTags>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>D:\git\Impressions\hardnesstesterV4\3rdparty\AsyncEx\src\Cancellation\Nito.Cancellation.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Nito.Disposables" Version="2.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Disposables\src\Nito.Disposables\Nito.Disposables.csproj" />
   </ItemGroup>
 
 </Project>
